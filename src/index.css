@@ -1,0 +1,60 @@
+/* styles.css */
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #e9dcdc; /* Background color of the navbar */
+  width: 100%; /* Full width of the viewport */
+}
+
+.navbar ul {
+  /* list-style-type: none; Remove default list styles */
+  /* text-align: center; Center align the navbar items */
+}
+
+.navbar ul li {
+  display: inline; /* Display list items inline */
+}
+
+.navbar ul li a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #080707; /* Text color */
+}
+
+.navbar ul li a:hover {
+  background-color: #555; /* Background color on hover */
+}
+.navbar ul li a.active {
+  background-color: #fcf5f5;
+  color: #b43535;
+}
+
+
+
+.main-content main {
+  margin-left: 250px; /* Width of sidebar */
+  padding: 20px;
+}
+
